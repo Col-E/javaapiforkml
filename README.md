@@ -2,16 +2,7 @@
 
 _The objective of the Java API for KML is to provide Java interfaces for easy access to KML (Keyhole Markup Language) data._
 
-Thank you to the Micromata for open sourcing this project.
-The repository has been transferred to [urbancamo](mailto:mark@wickensonline.co.uk) for onward maintenance.
-He will endeavour to keep dependencies security patched moving forward.
-Thank you to those who previously submitted pull requests or bug reports.
-
-
-> If you are currently running version `2.x.x` then you will need to change the `groupId` from 
-`de.micromata.jak` to `uk.m0nom` to be able to use versions `3.x.x` onwards.
-
-Version 3+ of the library supports Java 11+ and is built with Java 11.
+Version 4+ of the library supports Java 17+ and is built with Java 17.
 
 ```xml
 <!-- https://mvnrepository.com/artifact/uk.m0nom/javaapiforkml -->
@@ -21,8 +12,6 @@ Version 3+ of the library supports Java 11+ and is built with Java 11.
     <version>${project.version}</version>
 </dependency>
 ```
-
-The maven repository entry is https://mvnrepository.com/artifact/uk.m0nom/javaapiforkml
 
 ---
 
@@ -47,8 +36,4 @@ This API provides easy out-of-the-box access to KML for the user (resp. the deve
 API for KML (short: JAK) in order to enable this.
 
 An archive of high level documentation can be found at:
-https://web.archive.org/web/20170316194859/http://labs.micromata.de/projects/jak.html
-
-
-
-
+[labs.micromata.de/projects/jak.html](https://web.archive.org/web/20170316194859/http://labs.micromata.de/projects/jak.html)
