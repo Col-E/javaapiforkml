@@ -56,7 +56,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc42PolyStyle();
+	void atc42PolyStyle();
 	/**
 	 * <p>
 	 * ATC 43: Coordinates - altitudeMode
@@ -72,7 +72,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc43CoordinatesAltitudeMode();
+	void atc43CoordinatesAltitudeMode();
 	/**
 	 * <p>
 	 * ATC 44: Scale - minimal content
@@ -87,7 +87,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc44ScaleMinimalContent();
+	void atc44ScaleMinimalContent();
 	/**
 	 * <p>
 	 * ATC 45: KML - minimal content
@@ -102,7 +102,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc45KMLMinimalContent();
+	void atc45KMLMinimalContent();
 	/**
 	 * <p>
 	 * ATC 46: ViewFormat
@@ -116,7 +116,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc46ViewFormat();
+	void atc46ViewFormat();
 	/**
 	 * <p>
 	 * ATC 47: httpQuery
@@ -130,7 +130,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc47HttpQuery();
+	void atc47HttpQuery();
 	/**
 	 * <p>
 	 * ATC 48: LinearRing in Polygon
@@ -145,7 +145,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc48LinearRingInPolygon();
+	void atc48LinearRingInPolygon();
 	/**
 	 * <p>
 	 * ATC 49: Data
@@ -159,7 +159,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc49Data();
+	void atc49Data();
 	/**
 	 * <p>
 	 * ATC 50: ResourceMap - Alias
@@ -174,7 +174,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc50ResourceMapAlias();
+	void atc50ResourceMapAlias();
 	/**
 	 * <p>
 	 * ATC 51: Link refresh values
@@ -190,7 +190,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc51LinkRefreshValues();
+	void atc51LinkRefreshValues();
 	/**
 	 * <p>
 	 * ATC 52: PhotoOverlay
@@ -207,7 +207,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc52PhotoOverlay();
+	void atc52PhotoOverlay();
 	/**
 	 * <p>
 	 * ATC 53: GroundOverlay - minimal content
@@ -223,7 +223,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc53GroundOverlayMinimalContent();
+	void atc53GroundOverlayMinimalContent();
 	/**
 	 * <p>
 	 * ATC 54: Camera
@@ -239,7 +239,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc54Camera();
+	void atc54Camera();
 	/**
 	 * <p>
 	 * ATC 55: Location
@@ -257,7 +257,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc55Location();
+	void atc55Location();
 	/**
 	 * <p>
 	 * ATC 56: Overlay
@@ -272,7 +272,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc56Overlay();
+	void atc56Overlay();
 	/**
 	 * <p>
 	 * ATC 57: ScreenOverlay
@@ -287,7 +287,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc57ScreenOverlay();
+	void atc57ScreenOverlay();
 	/**
 	 * <p>
 	 * ATC 58: BalloonStyle
@@ -301,7 +301,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc58BaloonStyle();
+	void atc58BaloonStyle();
 	/**
 	 * <p>
 	 * ATC 59: ExtendedData
@@ -315,7 +315,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc59ExtendedData();
+	void atc59ExtendedData();
 	/**
 	 * <p>
 	 * ATC 60: Folder
@@ -329,7 +329,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc60Folder();
+	void atc60Folder();
 	/**
 	 * <p>
 	 * ATC 61: IconStyle
@@ -344,7 +344,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc61IconStyle();
+	void atc61IconStyle();
 	/**
 	 * <p>
 	 * ATC 62: ImagePyramid
@@ -360,7 +360,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc62ImagePyramid();
+	void atc62ImagePyramid();
 	/**
 	 * <p>
 	 * ATC 63: LabelStyle
@@ -375,7 +375,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc63LabelStyle();
+	void atc63LabelStyle();
 	/**
 	 * <p>
 	 * ATC 64: ListStyle
@@ -390,7 +390,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc64ListStyle();
+	void atc64ListStyle();
 	/**
 	 * <p>
 	 * ATC 65: Style
@@ -404,7 +404,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc65Sytle();
+	void atc65Sytle();
 	/**
 	 * <p>
 	 * ATC 66: MultiGeometry
@@ -419,7 +419,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc66MultiGeometry();
+	void atc66MultiGeometry();
 	/**
 	 * <p>
 	 * ATC 67: Placemark
@@ -434,7 +434,7 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc67Placemark();
+	void atc67Placemark();
 	/**
 	 * <p>
 	 * ATC 68: StyleMap
@@ -449,5 +449,5 @@ public interface IAtsConformanceLevel2 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc68StyleMap();
+	void atc68StyleMap();
 }

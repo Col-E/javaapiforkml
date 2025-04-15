@@ -1,14 +1,18 @@
 package de.micromata.opengis.kml.v_2_2_0;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class IconTest {
-   @Test
-    public void hashCodeTest() {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class IconTest
+{
+    @Test
+    void hashCodeTest()
+    {
         Icon icon1 = new Icon();
         Icon icon2 = new Icon();
 
         // Ensure we don't get an NPE
-        assert(icon1.hashCode() == icon2.hashCode());
-   }
+        assertEquals(icon1.hashCode(), icon2.hashCode());
+    }
 }

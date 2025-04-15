@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Vector;
 
 import de.micromata.opengis.kml.v_2_2_0.Boundary;
@@ -28,7 +29,7 @@ public class Utils {
 	 * @param r red
 	 * @param g green
 	 * @param b blue
-	 * @param inserverOrder set true to use inverse order of RGB => BGR
+	 * @param inverseOrder set true to use inverse order of RGB => BGR
 	 * @return RGB string in hex format
 	 */
 	public static String getHexColor(int r, int g, int b, boolean inverseOrder) {
@@ -83,11 +84,11 @@ public class Utils {
 	 * @param dataColumn index of the column for the data (double value)
 	 * @return Hashmap filled with data from the CSV
 	 */
-	public static HashMap<String, Double> readCSVDoubleData(String fileWithPath, int codeColumn, int dataColumn) {
+	public static Map<String, Double> readCSVDoubleData(String fileWithPath, int codeColumn, int dataColumn) {
 
 		List<String[]> stringVector = loadCsvFile(fileWithPath, ",\"");
 		int size = stringVector.size(); // size of rows in the CSV file
-		HashMap<String, Double> dataMap = new HashMap<String, Double>();
+		Map<String, Double> dataMap = new HashMap<String, Double>();
 		double max = Double.NEGATIVE_INFINITY;
 		double min = Double.POSITIVE_INFINITY;
 		String regex = "\"";
@@ -104,6 +105,7 @@ public class Utils {
 			min = Math.min(Double.valueOf(data), min);
 			dataMap.put(code, Double.valueOf(data));
 		}
+
 		// save min and max to HashMap
 		dataMap.put("minimum", min);
 		dataMap.put("maximum", max);
@@ -118,18 +120,17 @@ public class Utils {
 	 * @param codeColumn index of the column for the area or country code
 	 * @param dataColumn index of the column for the data (double value)
 	 * @param multiColumn index of the column for the year
-	 * @return Hashmap filled with data from the CSV
-	 * 
+	 * @return Hashmap filled with data from the CSV.
 	 *         Hashmap contains keys from the dataColum, values as (nested Hashmap) nested Hashmap contains keys from the multiColumn and
 	 *         values from the dataColumn
 	 */
-	public static HashMap<String, HashMap<String, Double>> readMultiDataFromCVS(String fileWithPath, int codeColumn, int dataColumn,
+	public static Map<String, HashMap<String, Double>> readMultiDataFromCVS(String fileWithPath, int codeColumn, int dataColumn,
 	    int multiColumn) {
 
 		// read CSV file
 		List<String[]> stringVector = loadCsvFile(fileWithPath, ",\"");
 		int size = stringVector.size(); // size of rows in the CSV file
-		HashMap<String, HashMap<String, Double>> dataMap = new HashMap<String, HashMap<String, Double>>();
+		Map<String, HashMap<String, Double>> dataMap = new HashMap<String, HashMap<String, Double>>();
 		double max = Double.NEGATIVE_INFINITY;
 		double min = Double.POSITIVE_INFINITY;
 		String regex = "\"";

@@ -71,7 +71,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc01RootElement();
+	void atc01RootElement();
 	/**
 	 * <p>
 	 * ATC 2: XML Schema constraints
@@ -86,7 +86,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc02XMLSchemaconstraints();
+	void atc02XMLSchemaconstraints();
 	/**
 	 * <p>
 	 * ATC 3: Geometry coordinates
@@ -105,7 +105,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc03GeometryCoordinates();
+	void atc03GeometryCoordinates();
 	/**
 	 * <p>
 	 * ATC 4: TimeSpan
@@ -121,7 +121,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc04TimeSpan();
+	void atc04TimeSpan();
 	/**
 	 * <p>
 	 * ATC 5: TimeStamp
@@ -135,7 +135,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc05TimeStamp();
+	void atc05TimeStamp();
 	/**
 	 * <p>
 	 * ATC 6: Style reference
@@ -156,7 +156,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc06StyleReference();
+	void atc06StyleReference();
 	/**
 	 * <p>
 	 * ATC 7: Shared style definition
@@ -172,7 +172,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc07SharedStyleDefintion();
+	void atc07SharedStyleDefintion();
 	/**
 	 * <p>
 	 * ATC 8: Region - LatLonAltBox
@@ -190,7 +190,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc08RegionLatLonAltBox();
+	void atc08RegionLatLonAltBox();
 	/**
 	 * <p>
 	 * ATC 9: Link elements
@@ -209,7 +209,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc09LinkElements();
+	void atc09LinkElements();
 	/**
 	 * <p>
 	 * ATC 10: Link referent
@@ -228,7 +228,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc10LinkReferent();
+	void atc10LinkReferent();
 	/**
 	 * <p>
 	 * ATC 11: LatLonBox
@@ -245,7 +245,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc11LatLonBox();
+	void atc11LatLonBox();
 	/**
 	 * <p>
 	 * ATC 12: Geometry - extrude
@@ -261,7 +261,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc12GeometryExtrude();
+	void atc12GeometryExtrude();
 	/**
 	 * <p>
 	 * ATC 13: Geometry - tessellate
@@ -277,7 +277,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc13GeometryTessellate();
+	void atc13GeometryTessellate();
 	/**
 	 * <p>
 	 * ATC 14: Point
@@ -291,7 +291,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc14Point();
+	void atc14Point();
 	/**
 	 * <p>
 	 * ATC 15: LineString
@@ -305,7 +305,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc15LineString();
+	void atc15LineString();
 	/**
 	 * <p>
 	 * ATC 16: LinearRing - control points
@@ -320,7 +320,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc16LinearRingControlPoints();
+	void atc16LinearRingControlPoints();
 	/**
 	 * <p>
 	 * ATC 17: Polygon boundary
@@ -338,7 +338,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc17PolygonBoundary();
+	void atc17PolygonBoundary();
 	/**
 	 * <p>
 	 * ATC 18: Icon - href
@@ -355,7 +355,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc18IconHref();
+	void atc18IconHref();
 	/**
 	 * <p>
 	 * ATC 19: ViewVolume - minimal content
@@ -371,7 +371,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc19ViewVolumeMinimalContent();
+	void atc19ViewVolumeMinimalContent();
 	/**
 	 * <p>
 	 * ATC 20: NetworkLinkControl - minRefreshPeriod
@@ -385,7 +385,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc20NetworkLinkControlMinRefreshPeriod();
+	void atc20NetworkLinkControlMinRefreshPeriod();
 	/**
 	 * <p>
 	 * ATC 21: Empty object
@@ -401,7 +401,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc21EmptyObject();
+	void atc21EmptyObject();
 	/**
 	 * <p>
 	 * ATC 22: Update - targetHref
@@ -418,7 +418,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc22UpdateTargetHref();
+	void atc22UpdateTargetHref();
 	/**
 	 * <p>
 	 * ATC 23: Identification of update target
@@ -434,7 +434,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc23IdentificationOfUpdateTarget();
+	void atc23IdentificationOfUpdateTarget();
 	/**
 	 * <p>
 	 * ATC 24: PhoneNumber
@@ -449,7 +449,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc24Phonenumber();
+	void atc24Phonenumber();
 	/**
 	 * <p>
 	 * ATC 25: Schema
@@ -463,7 +463,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc25Schema();
+	void atc25Schema();
 	/**
 	 * <p>
 	 * ATC 26: Schema - SimpleField
@@ -482,7 +482,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc26SchemaSimpleField();
+	void atc26SchemaSimpleField();
 	/**
 	 * <p>
 	 * ATC 27: ExtendedData - SchemaData
@@ -500,7 +500,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc27ExtendedDataSchemaData();
+	void atc27ExtendedDataSchemaData();
 	/**
 	 * <p>
 	 * ATC 28: ExtendedData - Data
@@ -514,7 +514,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc28ExtendedDataData();
+	void atc28ExtendedDataData();
 	/**
 	 * <p>
 	 * ATC 29: Alias
@@ -531,7 +531,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc29Alias();
+	void atc29Alias();
 	/**
 	 * <p>
 	 * ATC 30: atom:author
@@ -550,7 +550,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc30AtomAuthor();
+	void atc30AtomAuthor();
 	/**
 	 * <p>
 	 * ATC 31: atom:link
@@ -567,7 +567,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc31AtomLink();
+	void atc31AtomLink();
 	/**
 	 * <p>
 	 * ATC 32: Orientation - minimal content
@@ -582,7 +582,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc32OrientationMinimalContent();
+	void atc32OrientationMinimalContent();
 	/**
 	 * <p>
 	 * ATC 33: GroundOverlay
@@ -596,7 +596,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc33GroundOverlay();
+	void atc33GroundOverlay();
 	/**
 	 * <p>
 	 * ATC 34: Model
@@ -612,7 +612,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc34Model();
+	void atc34Model();
 	/**
 	 * <p>
 	 * ATC 35: PhotoOverlay - minimal content
@@ -627,7 +627,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc35PhotoOverlayMinimalContent();
+	void atc35PhotoOverlayMinimalContent();
 	/**
 	 * <p>
 	 * ATC 36: Pair
@@ -643,7 +643,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc36Pair();
+	void atc36Pair();
 	/**
 	 * <p>
 	 * ATC 37: ItemIcon
@@ -657,7 +657,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc37ItemIcon();
+	void atc37ItemIcon();
 	/**
 	 * <p>
 	 * ATC 38: LookAt
@@ -676,7 +676,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc38LookAt();
+	void atc38LookAt();
 	/**
 	 * <p>
 	 * ATC 39: Lod
@@ -692,7 +692,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc39Lod();
+	void atc39Lod();
 	/**
 	 * <p>
 	 * ATC 40: Link
@@ -707,7 +707,7 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc40Link();
+	void atc40Link();
 	/**
 	 * <p>
 	 * ATC 41: Region
@@ -722,5 +722,5 @@ public interface IAtsConformanceLevel1 {
 	 * </ul>
 	 * <b>Test type:</b> Basic
 	 */
-	public void atc41Region();
+	void atc41Region();
 }
